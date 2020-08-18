@@ -6,7 +6,7 @@ html{
   *{
 
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     
   }
@@ -202,6 +202,11 @@ h2{
   font-size: 35px;
 }
 
+p1{
+
+  color: #242424;
+
+}
 .item1 , .item2 {
 
   border-bottom: 1px dashed grey;
@@ -210,14 +215,12 @@ h2{
 }
 .donuts , .coffe {
 
-  background-color: #f9f9f9;
+  background-color: #e37578;
     width: 570px;
     float: left;
     margin: 10px;
     border: 1px solid black;
-
-    
- 
+   
 }
 .donuts , .item1 {
 
@@ -241,18 +244,32 @@ h2{
 
 }
 
-.iten2{
+.item2{
 
   border-bottom: 1px dashed grey;
   max-width: 542px;
   margin-bottom: 20px;
 }
 
-.coffe , .iten2 {
+.coffe , .item2 {
 
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
- 
+ .donuts  ul a {
+
+  text-decoration: none;
+  
+ }
+
+ .coffe  ul a {
+
+  text-decoration: none;
+  
+ }
+
+ #content .img-wrappers a {
+   text-decoration: none;
+ }
