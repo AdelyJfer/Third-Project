@@ -66,7 +66,7 @@ html{
   }
 
 #nav , #feature, #footer {
-
+  
     background-color:#e37578;
     padding: 10px;
     margin: 10px;
@@ -92,13 +92,15 @@ html{
     /* width: 373px; */
     float: left;
     margin: 45px;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 
 .img-wrappers , img {
 
   display: block;
   max-width: 100%;
+  border-radius: 10%;
+  box-shadow: 0 0 10px grey;
 }
 
 .overlay {
@@ -109,6 +111,7 @@ html{
   left: 0;
   right:0 ;
   padding: 20px;
+  border-radius: 10%; 
   opacity: 0;
   background-image: linear-gradient( to bottom ,#f9f9f950 ,#e375795d);
   font-weight: 500;
@@ -122,6 +125,8 @@ html{
 /*/// end-images ///*/
 
 
+
+/*  adress page 3 */
 .Adrees ,.SecondAdrees  {
  
   background-color: #f9f9f9;
@@ -131,11 +136,29 @@ html{
   border : 1px solid black;
   }
  
-  .Map{
+.Map{
 
     background-color:#f9f9f9 ;
     padding:20% ;
   }
+
+  
+.adress1 {
+
+  color: palevioletred;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight :700 ;
+}
+
+.adress2 , .phone , .daily{
+
+  color: black;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight :700 ;
+}
+
+  /* end-adrees page 3 */
+
 
 #nav ul {
 
@@ -170,19 +193,6 @@ html{
  }
 
 
-.adress1 {
-
-  color: palevioletred;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight :700 ;
-}
-
-.adress2 , .phone , .daily{
-
-  color: black;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight :700 ;
-}
 
 
 h2{
@@ -192,7 +202,7 @@ h2{
   font-size: 35px;
 }
 
-.item1 {
+.item1 , .item2 {
 
   border-bottom: 1px dashed grey;
   max-width: 542px;
@@ -206,7 +216,7 @@ h2{
     margin: 10px;
     border: 1px solid black;
 
-    border-bottom: 1px dashed grey;
+    
  
 }
 .donuts , .item1 {
@@ -215,7 +225,7 @@ h2{
   font-weight: 600;
   margin-bottom: 10px;
 }
- #content ,.donuts , .coffe,.h4{
+ #content ,.donuts , .coffe {
 
     font-size: 20px;
     font-weight: 700;
@@ -238,7 +248,7 @@ h2{
   margin-bottom: 20px;
 }
 
-.coffe , .item2 {
+.coffe , .iten2 {
 
   font-size: 20px;
   font-weight: 600;
