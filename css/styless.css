@@ -21,12 +21,25 @@ html{
 
   header{
 
-    background-image: url("http://placehold.it/600");
+    background-image: url(../images/header2.JPG);
     
     height: 300px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  h1{
+
+
+  
+   color: #309494;
+  
+   font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  
+    font-size: 50px;
+    padding-top: 25px;
   }
  
   #HEADER1{
@@ -41,27 +54,16 @@ html{
   
   }
 
-  .menu  , .findus{
+  .menu  , .findus {
 
     font-family: 'Alegreya Sans SC', sans-serif;
     font-family: 'Raleway', sans-serif;
     color:hsl(358, 66%, 67%);
-    
-    font-size: 80px;
+     font-size: 80px;
     padding-top: 60px;
     
 
   }
-
-
-  
-  
-
-#content{
-
-    overflow: auto;
-    height: 100%;
-}
 
 #nav , #feature, #footer {
 
@@ -76,15 +78,29 @@ html{
     margin: 0;
 }
  
+/* images */
 
-.one , .two , .three {
+#content{
 
+    overflow: auto;
+    height: 100%;
+}
+.img-wrappers{
+
+    position: relative;
     background-color: #e37578;
-    width: 373px;
+    /* width: 373px; */
     float: left;
-    margin: 10px;
+    margin: 45px;
     border: 1px solid black;
 }
+
+.img-wrappers , img {
+
+  display: block;
+  max-width: 100%;
+}
+
 
 .Adrees ,.SecondAdrees  {
  
@@ -149,7 +165,12 @@ html{
 }
 
 
+h2{
 
+  margin-top: 5%;
+  color: #309494;
+  font-size: 35px;
+}
 
 .item1 {
 
@@ -203,3 +224,5 @@ html{
   font-weight: 600;
   margin-bottom: 10px;
 }
+
+ 
