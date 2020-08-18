@@ -4,4 +4,13 @@
 
 
 
+@media screen and (min-width:580px){
+
+    nav ul {
+
+        flex-direction: row ;
+    }
+
+    
+
 

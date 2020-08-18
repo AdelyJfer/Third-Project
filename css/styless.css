@@ -15,7 +15,8 @@ html{
  body {
   
   width: 1180px;
-    margin:  auto;
+  margin:  auto;
+  background: linear-gradient( to bottom , rgba(245, 245, 245, 0.308) , #e3757936);
     
   }
 
@@ -71,6 +72,8 @@ html{
     padding: 10px;
     margin: 10px;
 }
+
+
 #feature1{
 
   background-color:#f9f9f9;
@@ -129,7 +132,7 @@ html{
 /*  adress page 3 */
 .Adrees ,.SecondAdrees  {
  
-  background-color: #f9f9f9;
+  background-color: #f9f9f979;
    width: 570px;
    float: left;
    margin: 10px;
@@ -138,7 +141,7 @@ html{
  
 .Map{
 
-    background-color:#f9f9f9 ;
+    background-color: rgba(128, 128, 128, 0.027) ;
     padding:20% ;
   }
 
@@ -264,12 +267,42 @@ p1{
   
  }
 
+ .donuts ul a:hover {
+  
+  color: black;
+
+ }
+
  .coffe  ul a {
 
   text-decoration: none;
   
  }
 
+ .coffe ul a:hover {
+  
+  color: black;
+
+ }
+
  #content .img-wrappers a {
    text-decoration: none;
  }
+
+ /*  footer */
+
+ #footer {
+
+  padding: 20px;
+}
+
+.fotter-content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.fotter-content li {
+
+  line-height: 1.5em;
+}
